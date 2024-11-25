@@ -1,0 +1,284 @@
+.navbar{
+    display:flex;
+    justify-content:space-between;
+}
+
+/* default setting */
+.header{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+    z-index:-1;
+}
+
+/* small screen */
+.leftcontainer{
+    display: none;
+}
+.rightcontainer{
+    display: none;
+}
+.centerdiv{
+    display: block;
+}
+.profile{
+    width: 13rem;
+    height: 13rem;
+    margin-top: 6rem;
+    border-radius: 50%;
+    box-shadow: 5px 5px 15px black;
+    margin-left: 3rem;
+}
+.sm{
+    text-align: center;
+    text-align: center;
+    font-size:0.8rem;
+    margin-top: 2rem;
+    margin-left: 20px;
+    color:#f1b409;
+}
+.sm_name{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 40px;
+    font-family:serif;
+}
+.sm_name1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    margin-left: 40px;
+    font-family:serif;
+}
+.btn{
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.btnlink{
+    text-decoration: none;
+    color:white;
+}
+.btn1{
+    background-color: #f1b409;
+    color:white;
+    border: none;
+    padding: 12px 13px 12px 13px;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn2{
+    background-color: white;
+    color:black;
+    border:none;
+    box-shadow: 0px 2px 5px grey;
+    padding: 11px 16px 11px 16px;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+.copyright{
+    display: none;
+}
+
+@media (min-width: 640px){
+    .leftcontainer{
+        display: block;
+        background-color: white;
+        width: 50%;
+        height:34.5rem;
+    }
+    .rightcontainer{
+        display: block;
+        background-color: #f1b409;
+        width: 50%;
+        height:34.5rem;
+    }
+    .centerdiv{
+        display: none;
+    }
+    .profile{
+        width: 20rem;
+        height: 20rem;
+        margin-top: 7rem;
+        border-radius: 50%;
+        box-shadow: 5px 5px 15px black;
+        margin-left: 1rem;
+    }
+    .dev{
+        font-size: 0.8rem;
+        margin: 10rem 10px 10px 20px;
+        color:#f1b409
+    }
+    .name{
+    font-size: 3.2rem;
+    font-family: serif;
+    font-weight: bolder;
+    margin:0px 10px 10px 20px;
+    }
+
+    .name1{
+    font-size: 3.2rem;
+    font-family: serif;
+    font-weight: bolder;
+    margin: -10px 10px 10px 20px;
+}
+    .btn{
+    margin-top:-12rem;
+    margin-left:25px
+}
+    .copyright{
+        display: block;
+        font-size:8.5px;
+        color:gray;
+        margin:6rem 22rem 20px -15px;
+        text-align: center;
+    }
+}
+
+@media (min-width:760px){
+    .dev{
+        font-size: 1rem;
+        margin: 10rem 20px 10px 20px;
+        text-align: center;
+    }
+    .profile{
+        width: 22rem;
+        height: 22rem;
+        margin-top: 7rem;
+        border-radius: 50%;
+        box-shadow: 5px 5px 15px black;
+        margin-left: 1.5rem;
+    }
+    .name{
+    font-size: 3.5rem;
+    margin:0px 20px 10px 30px;
+    }
+
+    .name1{
+    font-size: 3.5rem;
+    margin: -10px 10px 10px 30px;
+    }
+    .btn{
+    margin-top:-10rem;
+    margin-left:45px
+    }
+    .btn1 , .btn2{
+    padding: 18px 20px 18px 20px;
+    }
+    .copyright{
+        font-size:9px;
+        margin:4rem 22rem 20px -70px;
+    }
+}
+
+@media (min-width:860px){
+    .dev{
+        font-size: 1rem;
+        margin: 10rem 20px 10px 20px;
+        text-align: center;
+    }
+    .profile{
+        width: 25rem;
+        height: 25rem;
+        margin-top: 7rem;
+        border-radius: 50%;
+        box-shadow: 10px 10px 15px black;
+        margin-left: 1.5rem;
+    }
+    .name{
+    font-size: 4rem;
+    margin:0px 20px 10px 60px;
+    }
+
+    .name1{
+    font-size: 4rem;
+    margin: -10px 10px 10px 60px;
+}
+    .btn{
+    margin-top:-10rem;
+    margin-left:65px
+}
+    .btn1 , .btn2{
+    padding: 22px 30px 22px 30px;
+    }
+    .copyright{
+        font-size:11px;
+        margin:4rem 22rem 20px -9rem;
+    }
+}
+
+@media (min-width:1024px){
+    .leftcontainer{
+        height: 34.6rem;
+    }
+    .rightcontainer{
+        height: 34.6rem;
+    }
+    .profile{
+        width: 29rem;
+        height: 29rem;
+        margin-top: 3rem;
+        border-radius: 50%;
+        box-shadow: 10px 10px 15px black;
+        margin-left: 1.5rem;
+    }
+
+    .dev{
+        font-size: 1.2rem;
+        margin: 10rem 20px 10px 20px;
+    }
+    .name{
+        font-size: 4rem;
+        margin: 0px 20px 0px 4rem;
+    }
+    .name1{
+        font-size: 4rem;
+        margin: 0px 20px 10px 4rem;
+    }
+
+    .btn{
+        margin-top: -11rem;
+        margin-left: 5rem;
+    }
+    .copyright{
+        font-size:11px;
+        margin:4rem 22rem 20px -11rem;
+    }
+}
+
+@media (min-width:1136px){
+    .leftcontainer{
+        height: 40rem;
+    }
+    .rightcontainer{
+        height: 40rem;
+    }
+    .name{
+        font-size: 5rem;
+        margin: 0px 20px 10px 8rem;
+    }
+    .name1{
+        font-size: 5rem;
+        margin: -20px 20px 10px 8rem;
+    }
+    .btn{
+        margin-top: -12rem;
+        margin-left: 8rem;
+    }
+    .copyright{
+        font-size: 12px;
+        margin: 5rem 22rem 20px -25rem;
+    }
+    .profile{
+        width: 37rem;
+        height: 37rem;
+        margin-top: 2rem;
+        border-radius: 50%;
+        box-shadow: 10px 10px 15px black;
+        margin-left: 3rem;
+    }
+}
