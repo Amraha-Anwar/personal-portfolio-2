@@ -34,10 +34,10 @@ export default function ScrollAbout({children}:{children: React.ReactNode}){
      <div className={styles.cv_form}>
         <div className={styles.keys}>
             <p>Name:</p>
-            <p>Skills:</p>
-            <p>Email:</p>
-            <p>Phone:</p>
-            <p>Address:</p>
+            <p className={styles.cv1}>Skills:</p>
+            <p className={styles.cv1}>Email:</p>
+            <p className={styles.cv1}>Phone:</p>
+            <p className={styles.cv1}>Address:</p>
         </div>
         <div className={styles.values}>
             <p className={styles.p1}>Amraha Anwar</p>

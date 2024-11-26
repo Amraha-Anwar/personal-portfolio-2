@@ -120,11 +120,20 @@
     .para{
         margin-top: 10px;
     }
-    .keys{
-        margin-bottom: 1rem;
+    .cv1{
+        padding-top: 1rem;
     }
-    .values{
-        margin-bottom: 1rem;
+    .p2{
+        padding-top: 1rem;
+    }
+    .p3{
+        padding-top: 1rem;
+    }
+    .p4{
+        padding-top: 1rem;
+    }
+    .p5{
+        padding-top: 1rem;
     }
 }
 @media (min-width:640px){

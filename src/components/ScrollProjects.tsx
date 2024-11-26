@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import Link from 'next/link';
 import styles from '@/styles/Projects.module.css'
 import { motion, useInView } from "framer-motion";
 import { useRef } from "react";
