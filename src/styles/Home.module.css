@@ -85,8 +85,8 @@
 /* mobile screen */
 @media (min-width:420px){
     .profile{
-        width: 14rem;
-        height: 14rem;
+        width: 16rem;
+        height: 16rem;
         margin-left: 6rem;
         margin-top: 10rem;
     }
