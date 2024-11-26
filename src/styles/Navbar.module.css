@@ -121,6 +121,25 @@
 }
 }
 
+/* mobile screen */
+@media (min-width:420px){
+  .navbar{
+    height: 6rem;
+  }
+  .logo{
+    margin-top: 20px;
+}
+  .hamburger{
+    font-size: 2rem;
+    margin-bottom: 5px;
+  }
+  .sideBar {
+    height: 28%;
+    width: 170px;
+    margin-top: 30px;
+  }
+}
+
 /* responsive for  md*/
 @media (min-width: 760px){
   .logo{

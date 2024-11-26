@@ -24,7 +24,7 @@ export default function Home() {
    {/* only 1 container for small screens */}
    <div className={styles.centerdiv}>
    <Image className={styles.profile} src="/images/profile.png" alt="profile picture" width={800} height={800} />
-   <h2 className={styles.sm}>{`UI/UX DESIGNER & FRONT-END DEVELOPER`}</h2>
+   <p className={styles.sm}>{`UI/UX DESIGNER & FRONT-END DEVELOPER`}</p>
    <p className={styles.sm_name}>{`I'm Amraha`}</p>
    <p className={styles.sm_name1}>Anwar</p>
    </div>
