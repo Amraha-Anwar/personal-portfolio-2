@@ -46,16 +46,6 @@ const Projects = () => {
                 </div>
             </div>
         </motion.div>
-
-        {/* page numbers buttons */}
-        <div className={styles.buttons}>
-            <button className={styles.btn}><Link href="#" className={styles.li}>{`<`}</Link></button>
-            <button className={styles.btn1}><Link href="#" className={styles.li_1}>1</Link></button>
-            <button className={styles.btn}><Link href="#" className={styles.li}>2</Link></button>
-            <button className={styles.btn}><Link href="#" className={styles.li}>3</Link></button>
-            <button className={styles.btn}><Link href="#" className={styles.li}>4</Link></button>
-            <button className={styles.btn}><Link href="#" className={styles.li}>{`>`}</Link></button>
-        </div>
            
         </div>
     )

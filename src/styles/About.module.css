@@ -111,6 +111,22 @@
     color: gray;
     text-align: center;
 }
+
+/*mobile screen  */
+@media(min-width:420px){
+    .links{
+       margin-bottom: 10px;
+    }
+    .para{
+        margin-top: 10px;
+    }
+    .keys{
+        margin-bottom: 1rem;
+    }
+    .values{
+        margin-bottom: 1rem;
+    }
+}
 @media (min-width:640px){
     .scroll_about{
         margin: 10rem 1.5rem 0px 3rem;

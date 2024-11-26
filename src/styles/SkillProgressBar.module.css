@@ -42,6 +42,15 @@
     transition: width 0.3s ease-in-out;
   }
   
+  /* mobile screen */
+@media (min-width:420px){
+  .skill{
+    margin-bottom: 15px;
+  }
+  .skillHeader{
+    margin-top: 1rem;
+  }
+}
   @media (min-width:640px){
     .skillHeader {
         margin-left: 5rem;
@@ -50,7 +59,6 @@
       .progressBar {
         margin-left: 4rem;
       }
-      
   }
 
   @media (min-width:1024px){

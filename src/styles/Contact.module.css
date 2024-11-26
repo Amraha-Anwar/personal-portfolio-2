@@ -136,6 +136,28 @@
     padding-top: 5rem;
     padding-bottom: 2rem;
   }
+
+  /* mobile screen */
+  @media (min-width:420px){
+    .buttons{
+       margin-bottom: 10px;
+    }
+    .cnt{
+        padding-top: 30px;
+    }
+    .text{
+        padding-top: 2px;
+    }
+    .key{
+        margin-bottom: 10px;
+    }
+    .follow{
+        padding-bottom: 1rem;
+    }
+    .link{
+        margin-bottom: 25px;
+    }
+  }
   @media (min-width:580px){
     .container{
         margin:5rem 30px;
