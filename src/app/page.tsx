@@ -31,8 +31,8 @@ export default function Home() {
     </main>
 
     <div className={styles.btn}>
-      <button className={styles.btn1}><Link className={styles.btnlink} href={"/about"}>MORE ABOUT ME</Link></button>
-      <button className={styles.btn2}>HIRE ME</button>
+      <Link className={styles.btnlink} href={"/about"}><button className={styles.btn1}>MORE ABOUT ME</button></Link>
+      <Link href="/contact"><button className={styles.btn2}>HIRE ME</button></Link>
     </div>
     <p className={styles.copyright}>&copy; 2024 All rights reserved | This portfolio is made with &hearts; by A<sub>A_.</sub></p>
     </div>
