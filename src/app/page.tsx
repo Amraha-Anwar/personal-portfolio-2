@@ -8,7 +8,7 @@ export default function Home() {
     {/* Header text for all screens */}
     <div className={styles.header}>
     <main className={styles.navbar}>
-       {/* 2 containers will appear from medium to xl screens */}
+       {/* 2 containers will appear on xl screens */}
 
     <div className={styles.leftcontainer}>    {/* left container*/}
       <h2 className={styles.dev}>{`UI/UX DESIGNER & FRONT-END DEVELOPER`}</h2>

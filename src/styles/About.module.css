@@ -64,30 +64,25 @@
 .cv_form{
     margin-top: 50px;
     display: flex;
-    flex-direction: row;
-    gap: 30px;
 }
 .keys{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
     color: black;
     font-size: 17px;
 }
 .values{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-direction: column;
     color: #f1b409;
-    font-size: 14px;
+    font-size: 17px;
     text-align: left;
     margin-right: 5px;
-}
-.p2{
-    margin-top: 7px;
-}
-.p3{
-    margin-top: 2px;
-}
-.p4{
-    margin-top: 8px;
-}
-.p5{
-    margin-top: 5px;
+    height: 100%;
 }
 .download_btn{
     padding: 15px 19px;
@@ -151,7 +146,6 @@
         font-size: 21px;
     }
     .values{
-        margin-top: 7px;
         font-size: 18px;
     }
 }
@@ -189,7 +183,6 @@
         font-size: 21px;
     }
     .values{
-        margin-top: 7px;
         font-size: 18px;
     }
 

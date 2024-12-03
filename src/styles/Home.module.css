@@ -22,15 +22,25 @@
     display: none;
 }
 .centerdiv{
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50vh;
 }
 .profile{
-    width: 13rem;
-    height: 13rem;
+    width: 70vw;
+    height: 70vw;
     margin-top: 6rem;
     border-radius: 50%;
     box-shadow: 5px 5px 15px black;
-    margin-left: 3rem;
+    object-fit: cover;
 }
 .sm{
     text-align: center;
@@ -54,13 +64,16 @@
     font-family:serif;
 }
 .btn{
-    margin-left: 30px;
-    margin-top: 30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 30px;
 }
 
 .btnlink{
     text-decoration: none;
     color:white;
+    cursor: pointer;
 }
 .btn1{
     background-color: #f1b409;
@@ -82,48 +95,20 @@
 .copyright{
     display: none;
 }
-/* mobile screen */
-@media (min-width:420px){
-    .profile{
-        width: 16rem;
-        height: 16rem;
-        margin-left: 6rem;
-        margin-top: 10rem;
-    }
-    .sm{
-        font-size:1rem;
-        font-weight: 800;
-        margin-top: 5rem;
-        margin-left: 30px;
-    }
-    .btn{
-        margin-left: 6rem;
-        margin-top:5rem;
-    }
-    .sm_name{
-        font-size: 3rem;
-    }
-    .sm_name1{
-        font-size: 3rem;
-    }
-    
-}
 
 @media (min-width: 640px){
+    .navbar{
+        flex-direction: row;
+        gap: 0;
+    }
     .leftcontainer{
-        display: block;
-        background-color: white;
-        width: 50%;
-        height:34.5rem;
+        display: none;
     }
     .rightcontainer{
-        display: block;
-        background-color: #f1b409;
-        width: 50%;
-        height:34.5rem;
+        display: none;
     }
     .centerdiv{
-        display: none;
+        display: block;
     }
     .profile{
         width: 20rem;
@@ -153,7 +138,8 @@
 }
     .btn{
     margin-top:-12rem;
-    margin-left:25px
+    margin-left:25px;
+    justify-content: left;
 }
     .copyright{
         display: block;
@@ -173,7 +159,7 @@
     .profile{
         width: 22rem;
         height: 22rem;
-        margin-top: 7rem;
+        margin-top: 10rem;
         border-radius: 50%;
         box-shadow: 5px 5px 15px black;
         margin-left: 1.5rem;
@@ -188,15 +174,15 @@
     margin: -10px 10px 10px 30px;
     }
     .btn{
-    margin-top:-10rem;
-    margin-left:45px
+    margin-top:5rem;
+    margin-left:17rem
     }
     .btn1 , .btn2{
     padding: 18px 20px 18px 20px;
     }
     .copyright{
-        font-size:9px;
-        margin:4rem 22rem 20px -70px;
+        font-size:11px;
+        margin:4rem 2rem 40px 70px;
     }
 }
 
@@ -235,52 +221,20 @@
         margin:4rem 22rem 20px -9rem;
     }
 }
-
-@media (min-width:1024px){
-    .leftcontainer{
-        height: 34.6rem;
-    }
-    .rightcontainer{
-        height: 34.6rem;
-    }
+@media (min-width:900px){
     .profile{
-        width: 29rem;
-        height: 29rem;
-        margin-top: 3rem;
-        border-radius: 50%;
-        box-shadow: 10px 10px 15px black;
-        margin-left: 1.5rem;
-    }
-
-    .dev{
-        font-size: 1.2rem;
-        margin: 10rem 20px 10px 20px;
-    }
-    .name{
-        font-size: 4rem;
-        margin: 0px 20px 0px 4rem;
-    }
-    .name1{
-        font-size: 4rem;
-        margin: 0px 20px 10px 4rem;
-    }
-
-    .btn{
-        margin-top: -11rem;
-        margin-left: 5rem;
-    }
-    .copyright{
-        font-size:11px;
-        margin:4rem 22rem 20px -11rem;
+        margin-top: 12rem;
     }
 }
-
-@media (min-width:1136px){
+@media (min-width:1024px){
     .leftcontainer{
-        height: 40rem;
+        display: none;
     }
     .rightcontainer{
-        height: 40rem;
+        display: none;
+    }
+    .centerdiv{
+        display: block;
     }
     .name{
         font-size: 5rem;
@@ -293,17 +247,23 @@
     .btn{
         margin-top: -12rem;
         margin-left: 8rem;
+        justify-content: left;
     }
     .copyright{
         font-size: 12px;
         margin: 5rem 22rem 20px -25rem;
     }
     .profile{
-        width: 37rem;
-        height: 37rem;
-        margin-top: 2rem;
+        width: 45vh;
+        height: 45vh;
+        margin-top: 12rem;
         border-radius: 50%;
         box-shadow: 10px 10px 15px black;
         margin-left: 3rem;
     }
+    .navbar{
+        flex-direction: row;
+        gap: 0;
+    }
+
 }
