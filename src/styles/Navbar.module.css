@@ -124,15 +124,11 @@
 /* mobile screen */
 @media (min-width:420px){
   .navbar{
-    height: 9vh;
-    background-color: #000000;
+    height: 5rem;
   }
   .navcontainer{
-    margin-top: 10px;
+    margin-top: 25px;
   }
-  .logo{
-    font-size: 2.2rem;
-}
   .hamburger{
     font-size: 2rem;
     margin-bottom: 5px;
@@ -155,25 +151,21 @@
   .logo{
     margin-left: 3rem;
     font-size: 2.5rem;
-    color: #f1b409;
 }
 
 .hamburger {
   font-size: 2rem;
   margin-top: 15px;
   margin-right: 1rem;
-  color: white;
-}
-.link{
-  color: #f1b409;
 }
 }
 
 /* responsive for lg */
+
 @media (min-width: 1024px){
   .logo{
     margin-left: 3rem;
-    color:#f1b409;
+    color:black;
     font-size: 3rem;
     font-weight: bold;
 }
@@ -187,8 +179,8 @@
 .sideBar {
   top: 0;
   right: -100%;
-  height: 20%;
-  width: 170px;
+  height: 50%;
+  width: 140px;
   margin-top: 47px;
   margin-right:26px;
   transition: right 0.3s ease;
@@ -206,7 +198,9 @@
     margin-left: 6rem;
     font-size: 3.5rem;
 }
-
+.navcontainer{
+  margin-top: -10px;
+}
 .hamburger {
   font-size: 3.5rem;
   margin-right:5rem;

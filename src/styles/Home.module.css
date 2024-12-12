@@ -102,13 +102,18 @@
         gap: 0;
     }
     .leftcontainer{
-        display: none;
+        display: block;
+        width: 50%;
+        height: 50vh;
     }
     .rightcontainer{
-        display: none;
+        display: block;
+        background-color: #f1b409;
+        width: 50%;
+        height:50vh;
     }
     .centerdiv{
-        display: block;
+        display: none;
     }
     .profile{
         width: 20rem;
@@ -159,7 +164,7 @@
     .profile{
         width: 22rem;
         height: 22rem;
-        margin-top: 10rem;
+        margin-top: 7rem;
         border-radius: 50%;
         box-shadow: 5px 5px 15px black;
         margin-left: 1.5rem;
@@ -174,15 +179,15 @@
     margin: -10px 10px 10px 30px;
     }
     .btn{
-    margin-top:5rem;
-    margin-left:17rem
+    margin-top:-10rem;
+    margin-left:45px
     }
     .btn1 , .btn2{
     padding: 18px 20px 18px 20px;
     }
     .copyright{
-        font-size:11px;
-        margin:4rem 2rem 40px 70px;
+        font-size:9px;
+        margin:4rem 22rem 20px -70px;
     }
 }
 
@@ -221,20 +226,16 @@
         margin:4rem 22rem 20px -9rem;
     }
 }
-@media (min-width:900px){
-    .profile{
-        margin-top: 12rem;
-    }
-}
+
 @media (min-width:1024px){
     .leftcontainer{
-        display: none;
+        height: 100vh;
     }
     .rightcontainer{
-        display: none;
-    }
-    .centerdiv{
-        display: block;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     .name{
         font-size: 5rem;
@@ -254,9 +255,9 @@
         margin: 5rem 22rem 20px -25rem;
     }
     .profile{
-        width: 45vh;
-        height: 45vh;
-        margin-top: 12rem;
+        width: 85vh;
+        height: 85vh;
+        margin-top: 2rem;
         border-radius: 50%;
         box-shadow: 10px 10px 15px black;
         margin-left: 3rem;
